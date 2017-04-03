@@ -1,0 +1,128 @@
+
+/* Global */
+
+body{
+	font-family: "Lato", sans-serif;
+	color: #2d3c49;
+	font-weight: 300;
+}
+
+hr{
+	border-top: 8px solid #7d97ad;
+}
+
+img{
+	max-width: 100%;
+}
+
+/* Helpers */
+
+.text-thin{
+	font-weight: 100;
+}
+
+.text-muted{
+	color: #BCBBBB;
+}
+
+/* Profile */
+
+.profile-name{
+	font-size: 60px;
+}
+
+.profile-avatar{
+	margin-top: 20px;
+}
+
+/* Projects */
+
+.project{
+	max-width: 100%;
+}
+
+.project-link{
+	font-size: 15px;
+}
+
+.project-image{
+	max-width: 100%;
+}
+
+/* Footer */
+
+.footer{
+	margin-top: 50px;
+	font-size: 15px;
+	font-weight: 400;
+	text-align: center;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 992px){
+	.profile{
+		text-align: center;
+	}
+
+	.profile-avatar{
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 50%;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.profile{
+		text-align: center;
+	}
+
+	.profile-avatar{
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.profile{
+		text-align: center;
+	}
+
+	.profile-avatar{
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.profile{
+		text-align: center;
+	}
+
+	.profile-avatar{
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media only screen and (max-width: 360px){
+	.profile{
+		text-align: center;
+	}
+
+	.profile-avatar{
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
